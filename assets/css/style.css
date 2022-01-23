@@ -13,7 +13,7 @@ body {
 
 /* Header: Background, logo & navigation bar*/
 
-#header_bg {
+#header-bg {
   height: 300px;
   width: 100%;
   background-color: #45FC03;
@@ -29,7 +29,7 @@ body {
   float: left;
 }
 
-nav {
+.nav {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
 }
@@ -58,4 +58,32 @@ nav {
 
 .active {
   border-bottom: 2px solid #000;
+}
+
+
+/* Footer: Bottom side navigation */
+
+footer {
+  height: 150px;
+  text-align: center;
+  
+}
+
+.footer-contact li, .footer-nav li {
+  display: inline;
+}
+
+.footer-contact i {
+  font-size: 160%;
+  padding: 0 3%;
+}
+
+.footer-nav a {
+  font-size: 90%;
+  margin: 1%;
+  padding: 3%;
+}
+
+footer p {
+  font-size: 75%;
 }
