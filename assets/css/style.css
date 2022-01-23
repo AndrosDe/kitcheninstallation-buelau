@@ -72,7 +72,25 @@ body {
 /* main content*/
 .main {
   margin-top: 300px;
+  margin-bottom: 160px;
 }
+
+.main-content {
+  margin: 25px 28%;
+}
+
+.main-content section {
+  margin-bottom: 30px;
+}
+
+.main-content h2 {
+  padding: 20px 0;
+}
+
+.main-content p {
+  padding: 10px 0;
+}
+
 
 /* Footer: Bottom side navigation */
 
@@ -126,4 +144,15 @@ footer a {
 footer p {
   font-size: 70%;
   padding: 0.5% 0;
+}
+
+/* Legal content */
+
+.server-log-scetion li{
+  list-style-type: disc;
+  padding: 10px 0;
+}
+
+.server-log-scetion ul{
+  padding-left: 20px;
 }
