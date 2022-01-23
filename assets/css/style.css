@@ -66,6 +66,15 @@ body {
 footer {
   height: 150px;
   text-align: center;
+  background: #000;
+  color: #45FC03;
+  padding: 1%;
+  letter-spacing: 2px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #45FC03;
 }
 
 .footer-contact li, .footer-nav li {
@@ -78,10 +87,10 @@ footer {
 }
 
 .footer-nav a {
-  font-size: 90%;
+  font-size: 95%;
   padding: 0 3%;
 }
 
 footer p {
-  font-size: 75%;
+  font-size: 70%;
 }
