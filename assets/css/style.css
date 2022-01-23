@@ -11,9 +11,9 @@ body {
   font-weight: 500;
 }
 
-/* Header: Logo image & navigation bar*/
+/* Header: Background, logo & navigation bar*/
 
-#bg {
+#header_bg {
   height: 300px;
   width: 100%;
   background-color: #45FC03;
@@ -31,7 +31,7 @@ body {
 
 nav {
   font-family: 'Fjalla One', sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 #menu {
@@ -43,6 +43,19 @@ nav {
 }
 
 #menu li {
-    list-style-type: none;
-    margin-right: 30px;
-    }
+  list-style-type: none;
+  margin-right: 35px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+#menu a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.active {
+  border-bottom: 2px solid #000;
+}
