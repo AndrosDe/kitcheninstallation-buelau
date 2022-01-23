@@ -13,18 +13,20 @@ body {
 
 /* Header: Logo image & navigation bar*/
 
-header {
-  height: 350px;
-  background-image: linear-gradient(to right top, #60bc71, #55bd66, #49bd5b, #3cbe4f, #2dbe41, #27c33a, #22c832, #1bcd27, #26d923, #30e41d, #3af014, #45fc03);
-}
-
-#logo {
-  float: left;
+#bg {
+  height: 300px;
+  width: 100%;
+  background-color: #45FC03;
+  background-image: url('../images/main_pic.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 #logo img {
-  height: 350px;
-  object-fit: contain;
+  height: 300px;
+  width: auto;
+  float: left;
 }
 
 nav {
@@ -37,7 +39,7 @@ nav {
   letter-spacing: 2px;
   display: flex;
   float: right;
-  margin-top: 310px;
+  margin-top: 260px;
 }
 
 #menu li {
