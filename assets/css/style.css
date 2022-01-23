@@ -64,12 +64,29 @@ body {
 /* Footer: Bottom side navigation */
 
 footer {
-  height: 150px;
+  position: fixed;
+  bottom: 0;
+  height: 160px;
+  width: 100%;
   text-align: center;
   background: #000;
   color: #45FC03;
-  padding: 1%;
+  padding: 0;
   letter-spacing: 2px;
+}
+
+.nav video {
+  height: 100%;
+  min-width: auto;
+  z-index:0;
+}
+
+.overlay {
+  padding: 0.5%;
+  width: 100%;
+  position:absolute;
+  top:0;
+  z-index:1;
 }
 
 footer a {
@@ -82,7 +99,7 @@ footer a {
 }
 
 .footer-contact i {
-  font-size: 160%;
+  font-size: 145%;
   padding: 0 3%;
 }
 
@@ -93,4 +110,5 @@ footer a {
 
 footer p {
   font-size: 70%;
+  padding: 0.5% 0;
 }
