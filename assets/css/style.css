@@ -21,6 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  border-bottom: black solid 3px;
 }
 
 #logo img {
@@ -73,10 +74,16 @@ body {
 .main {
   margin-top: 300px;
   margin-bottom: 160px;
+  background-image: url("../images/Kitchen_background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 
 .main-content {
   margin: 25px 28%;
+  padding: 0 20px;
+  background-color: rgba(162,228,184,0.9);
 }
 
 .main-content section {
