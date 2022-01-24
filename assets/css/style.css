@@ -28,6 +28,7 @@ body {
   height: 300px;
   width: auto;
   float: left;
+  z-index: 2;
 }
 
 /* Fixing the Header to the top  when  scrolling down*/
@@ -36,6 +37,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
 /* Header Navigation */
@@ -78,7 +80,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
 .main-content {
@@ -112,6 +114,46 @@ body {
   width: 100%;
   background: url(../images/Kitchen_background5.jpg) rgba(144,238,144,0.9) center top no-repeat;
   background-size: cover;
+  border-bottom: black solid 3px;
+}
+
+#cover-text, #cover-slogan {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+#cover-text {
+  font-size: 130%;
+  
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+   background-color: rgba(144,238,144,0.9);
+
+  bottom: 25%;
+  right: 150px;
+
+  position: absolute;
+}
+
+
+#cover-slogan {
+  font-size: 180%;
+
+  width: 300px;
+  height: 150px;
+
+  padding-top: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #45FC03;
+
+  bottom: 45%;
+  left: 150px;
+
+  position: absolute;
 }
 
 /* Footer: Bottom side navigation */
