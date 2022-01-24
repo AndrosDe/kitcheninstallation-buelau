@@ -82,8 +82,8 @@ body {
 
 .main-content {
   margin: 25px 28%;
-  padding: 0 20px;
-  background-color: rgba(162,228,184,0.9);
+  padding: 1% 1%;
+  background-color: rgba(144,238,144,0.9);
 }
 
 .main-content section {
@@ -156,10 +156,19 @@ footer p {
 /* Legal content */
 
 .server-log-scetion li{
-  list-style-type: disc;
   padding: 10px 0;
 }
 
 .server-log-scetion ul{
   padding-left: 20px;
+}
+
+/* Impressum */
+
+.impressum-lists li{
+  list-style-type: none;
+}
+
+.disclaimer-section h4{
+  padding-top: 2%;
 }
