@@ -78,6 +78,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
+  background-attachment:fixed;
 }
 
 .main-content {
@@ -97,7 +98,6 @@ body {
 .main-content p {
   padding: 10px 0;
 }
-
 
 /* Footer: Bottom side navigation */
 
@@ -171,4 +171,34 @@ footer p {
 
 .disclaimer-section h4{
   padding-top: 2%;
+}
+
+/* Gallary */
+
+.gallary-content {
+  margin: 25px 28%;
+  padding: 1% 1%;
+  background-color: rgba(144,238,144,0.9);
+  line-height: 0;
+  column-gap: 0;
+}
+
+.gallary-content img {
+  width: 100%;
+}
+
+#two-row-photos {
+  display: flex;
+  width: 50%;
+}
+
+.three-row-photos {
+  column-count: 3;
+  column-gap: 0;
+}
+
+#gallery-video {
+  text-align: center;
+  height: 100%;
+  width: 100%;
 }
