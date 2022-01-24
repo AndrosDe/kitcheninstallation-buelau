@@ -99,6 +99,21 @@ body {
   padding: 10px 0;
 }
 
+/* Hero Image */
+#hero-outer {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#hero-image {
+  height: 600px;
+  width: 100%;
+  background: url(../images/Kitchen_background5.jpg) rgba(144,238,144,0.9) center top no-repeat;
+  background-size: cover;
+}
+
 /* Footer: Bottom side navigation */
 
 footer {
@@ -202,3 +217,4 @@ footer p {
   height: 100%;
   width: 100%;
 }
+
