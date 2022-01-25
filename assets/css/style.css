@@ -339,7 +339,7 @@ footer p {
 /* Gallary */
 
 .gallary-content {
-  margin: 25px 28%;
+  margin: 0 28%;
   padding: 1% 1%;
   background-color: rgba(144,238,144,0.9);
   line-height: 0;
@@ -491,7 +491,10 @@ footer p {
   /* main layout */
   .main-content {
     margin: 0 2%;
-    padding: 1% 1% 10%;
+  }
+
+  .gallary-content {
+    margin: 0 2%;
   }
 
   /* Hero image */
