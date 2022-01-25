@@ -246,6 +246,11 @@ body {
   border-color: black;
 }
 
+.textarea {
+  width: 100%;
+  height: 100px;
+}
+
 .sent-button {
   margin-top: 20px;
   border-radius: 2px;
