@@ -321,21 +321,21 @@ footer p {
 
 /* Legal content */
 
-.server-log-scetion li{
+.server-log-scetion li {
   padding: 10px 0;
 }
 
-.server-log-scetion ul{
+.server-log-scetion ul {
   padding-left: 20px;
 }
 
 /* Impressum */
 
-.impressum-lists li{
+.impressum-lists li {
   list-style-type: none;
 }
 
-.disclaimer-section h4{
+.disclaimer-section h4 {
   padding-top: 2%;
 }
 
@@ -369,21 +369,10 @@ footer p {
   width: 100%;
 }
 
-#menu {
-  font-size: 80%;
-  margin-top: 4px;
-  margin-left: 15px;
-  letter-spacing: 0;
-}
-
-#menu li {
-  margin-right: 4px;
-}
-
-
 /* media queries */
 
 /* For screen sizes from 1800px wide and down */
+
 @media screen and (max-width: 1800px) {
 
   .main-content {
@@ -393,6 +382,7 @@ footer p {
 
 /* For screen sizes from 1455px wide and down */
 
+
 @media screen and (max-width: 1455px) {
 
   .main-content {
@@ -401,6 +391,7 @@ footer p {
 }
 
 /* For screen sizes from 1275px wide and down */
+
 
 @media screen and (max-width: 1275px) {
 
@@ -427,6 +418,7 @@ footer p {
 }
 
 /* For screen sizes from 975px wide and down */
+
 
 @media screen and (max-width: 975px) {
 
@@ -459,6 +451,7 @@ footer p {
 }
 
 /* For screen sizes from 705px wide and down */
+
 
 @media screen and (max-width: 705px) {
   .main-content {
@@ -493,6 +486,7 @@ footer p {
 }
 
 /* For screen sizes from 465px wide and down */
+
 
 @media screen and (max-width: 465px) {
 
@@ -560,6 +554,7 @@ footer p {
 }
 
 /* For screen sizes from 375px wide and down */
+
 @media screen and (max-width: 375px) {
 
   #menu {
@@ -575,6 +570,7 @@ footer p {
 }
 
 /* For screen sizes from 320px wide and down */
+
 @media screen and (max-width: 320px) {
   #menu {
     font-size: 75%;
