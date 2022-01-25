@@ -16,7 +16,7 @@ body {
 #header-bg {
   height: 300px;
   width: 100%;
-  background-color: #45FC03;
+  background-color: rgba(144,238,144,0.9);
   background-image: url('../images/main_pic.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,7 +133,7 @@ body {
   padding: 20px 10px;
   background-color: rgba(144,238,144,0.9);
 
-  bottom: 25%;
+  bottom: 40%;
   right: 150px;
 
   position: absolute;
@@ -148,9 +148,9 @@ body {
 
   padding-top: 40px;
   background-color: rgba(0, 0, 0, 0.7);
-  color: #45FC03;
+  color: rgba(144,238,144,0.9);
 
-  bottom: 45%;
+  bottom: 55%;
   left: 150px;
 
   position: absolute;
@@ -159,16 +159,16 @@ body {
 /* Services */
 #services {
   height: 100%;
+  width: 100%;
+  display: inline;
 }
 
 #left-service {
-  padding-top: 30px;
   width: 33%;
   float: left;
 }
 
 #right-service {
-  padding-top: 30px;
   width: 33%;
   float: right;
 }
@@ -214,12 +214,13 @@ hr {
 
 #service-h2 {
   text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 #circle-container {
   width: 300px;
   height: 300px;
-  padding: 30px;
+  padding: 20px;
   border-style: solid;
   border-color: rgb(0, 0, 0);
   border-width: 1px;
@@ -233,6 +234,13 @@ hr {
   border-radius: 50%;
 }
 
+/* Under services */
+
+#more-service {
+  text-align: center;
+  font-size: 110%;
+}
+
 
 /* Footer: Bottom side navigation */
 
@@ -243,7 +251,7 @@ footer {
   width: 100%;
   text-align: center;
   background: #000;
-  color: #45FC03;
+  color: rgba(144,238,144,0.9);
   padding: 0;
   letter-spacing: 2px;
 }
@@ -266,7 +274,7 @@ footer {
 /* footer content */
 footer a {
   text-decoration: none;
-  color: #45FC03;
+  color: rgba(144,238,144,0.9);
 }
 
 .footer-contact li, .footer-nav li {
