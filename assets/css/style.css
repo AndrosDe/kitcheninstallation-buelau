@@ -346,6 +346,11 @@ footer p {
   column-gap: 0;
 }
 
+#gallery-video {
+  width: 320;
+  height: 240;
+}
+
 .gallary-content img {
   width: 100%;
 }
