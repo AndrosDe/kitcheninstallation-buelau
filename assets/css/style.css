@@ -379,3 +379,210 @@ footer p {
 #menu li {
   margin-right: 4px;
 }
+
+
+/* media queries */
+
+/* For screen sizes from 1800px wide and down */
+@media screen and (max-width: 1800px) {
+
+  .main-content {
+    margin: 0 20%;
+  }
+}
+
+/* For screen sizes from 1455px wide and down */
+
+@media screen and (max-width: 1455px) {
+
+  .main-content {
+    margin: 0 15%;
+  }
+}
+
+/* For screen sizes from 1275px wide and down */
+
+@media screen and (max-width: 1275px) {
+
+  #header-bg {
+    height: 200px;
+  }
+
+  #logo img {
+    height: 200px;
+  }
+  
+  #menu {
+    font-size: 100%;
+    margin-top: 175px;
+  }
+
+  .main {
+    margin-top: 200px;
+  }
+
+  .main-content {
+    margin: 0 10%;
+  }
+}
+
+/* For screen sizes from 975px wide and down */
+
+@media screen and (max-width: 975px) {
+
+  #logo img {
+    height: 160px;
+  }
+
+  #menu {
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+  }
+
+  .main-content {
+    margin: 0 5%;
+  }
+
+  #exp, #service-h2 {
+    font-size: 180%;
+  }
+
+ #circle-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  #circle-cover-bg {
+    background-size: cover;
+  }
+}
+
+/* For screen sizes from 705px wide and down */
+
+@media screen and (max-width: 705px) {
+  .main-content {
+    margin: 0 2%;
+    padding: 1% 1% 10%;
+  }
+
+  #services {
+    display: block;
+  }
+
+  #left-service {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #left-service > div {
+    margin: 0 2px;
+  }
+    
+  #right-service {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #right-service > div {
+    margin: 0 2px;
+  }
+
+}
+
+/* For screen sizes from 465px wide and down */
+
+@media screen and (max-width: 465px) {
+
+  #header-bg {
+    height: 165px;
+  }
+
+  #logo img {
+    height: 140px;
+  }
+
+  #menu {
+    font-size: 80%;
+    margin-top: 5px;
+    margin-left: 15px;
+    letter-spacing: 1px;
+  }
+
+  #menu li {
+    margin-right: 8px;
+  }
+
+  #cover-text {
+    font-size: 100%;
+    
+    width: 250px;
+    height: 100px;
+  
+    padding: 20px 10px;
+     
+    bottom: 40%;
+    right: 15%;
+  }
+  
+  
+  #cover-slogan {
+    font-size: 145%;
+  
+    width: 250px;
+    height: 100px;
+  
+    padding-top: 40px;
+  
+    bottom: 55%;
+    left: 15%;
+
+  }
+
+  .main {
+    margin-top: 165px;
+  }
+
+  #exp, #service-h2 {
+    font-size: 140%;
+  }
+
+  #left-service {
+    display: block;
+  }
+
+  #right-service {
+    display: block;
+  }
+
+}
+
+/* For screen sizes from 375px wide and down */
+@media screen and (max-width: 375px) {
+
+  #menu {
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: 15px;
+    letter-spacing: 0;
+  }
+
+  #menu li {
+    margin-right: 4px;
+  }
+}
+
+/* For screen sizes from 320px wide and down */
+@media screen and (max-width: 320px) {
+  #menu {
+    font-size: 75%;
+    margin-top: 4px;
+    margin-left: 6px;
+  }
+
+  #menu li {
+    margin-right: 2px;
+  }
+}
