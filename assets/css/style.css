@@ -122,33 +122,25 @@ body {
 
 #cover-text {
   font-size: 140%;
-  
   width: 300px;
   height: 150px;
-
   padding: 20px 10px;
   background-color: rgba(144,238,144,0.9);
-
   bottom: 40%;
-  right: 150px;
-
+  right: 15%;
   position: absolute;
 }
 
 
 #cover-slogan {
   font-size: 185%;
-
   width: 300px;
   height: 150px;
-
   padding-top: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   color: rgba(144,238,144,0.9);
-
   bottom: 55%;
-  left: 150px;
-
+  left: 15%;
   position: absolute;
 }
 
@@ -491,8 +483,6 @@ footer p {
 }
 
 /* For screen sizes from 465px wide and down */
-
-
 @media screen and (max-width: 465px) {
 
   #header-bg {
@@ -516,28 +506,21 @@ footer p {
 
   #cover-text {
     font-size: 100%;
-    
     width: 250px;
     height: 100px;
-  
-    padding: 20px 10px;
-     
-    bottom: 40%;
-    right: 15%;
+    padding: 10px 5px;
+    bottom: 50%;
+    right: 10%;
   }
   
   
   #cover-slogan {
     font-size: 145%;
-  
     width: 250px;
     height: 100px;
-  
-    padding-top: 40px;
-  
-    bottom: 55%;
-    left: 15%;
-
+    padding-top: 20px;
+    bottom: 65%;
+    left: 10%;
   }
 
   .main {
