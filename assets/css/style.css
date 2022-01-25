@@ -504,14 +504,14 @@ footer p {
   }
 
   #menu {
-    font-size: 80%;
+    font-size: 88%;
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 8px;
     letter-spacing: 1px;
   }
 
   #menu li {
-    margin-right: 8px;
+    margin-right: 4px;
   }
 
   #cover-text {
@@ -563,14 +563,14 @@ footer p {
 @media screen and (max-width: 375px) {
 
   #menu {
-    font-size: 80%;
+    font-size: 88%;
     margin-top: 4px;
-    margin-left: 15px;
+    margin-left: 8px;
     letter-spacing: 0;
   }
 
   #menu li {
-    margin-right: 4px;
+    margin-right: 5px;
   }
 }
 
@@ -578,9 +578,9 @@ footer p {
 
 @media screen and (max-width: 320px) {
   #menu {
-    font-size: 75%;
+    font-size: 80%;
     margin-top: 4px;
-    margin-left: 6px;
+    margin-left: 4px;
   }
 
   #menu li {
