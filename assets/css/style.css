@@ -125,13 +125,13 @@ body {
 }
 
 #cover-text {
-  font-size: 130%;
+  font-size: 140%;
   
   width: 300px;
-  height: 200px;
+  height: 150px;
 
-  padding-top: 40px;
-   background-color: rgba(144,238,144,0.9);
+  padding: 30px 15px;
+  background-color: rgba(144,238,144,0.9);
 
   bottom: 25%;
   right: 150px;
@@ -141,7 +141,7 @@ body {
 
 
 #cover-slogan {
-  font-size: 180%;
+  font-size: 185%;
 
   width: 300px;
   height: 150px;
