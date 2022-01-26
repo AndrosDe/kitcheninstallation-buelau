@@ -67,7 +67,7 @@ body {
 .main {
   margin-top: 180px;
   margin-bottom: 160px;
-  background-image: url("../images/Kitchen_background2.jpg");
+  background-image: url("../images/kitchen_background2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -302,8 +302,14 @@ footer p {
   line-height: 2;
   column-gap: 1;
 }
+
 .gallary-content img {
   width: 100%;
+  transition: transform .2s; /* Animation */
+}
+
+.gallary-content img:hover {
+  transform: scale(1.5); /* 150% zoom */
 }
 
 #two-row-photos {
