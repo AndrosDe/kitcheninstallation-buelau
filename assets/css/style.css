@@ -124,7 +124,7 @@ body {
   padding-top: 40px;
   background-color: rgba(0, 0, 0, 0.7);
   color: rgba(144,238,144,0.9);
-  bottom: 70%;
+  top: 20%;
   right: 10%;
   position: absolute;
 }
@@ -518,11 +518,6 @@ footer p {
 /* For screen sizes from 705px wide and down */
 @media screen and (max-width: 705px) {
 
-    /* Hero image */
-    #cover-slogan {
-      bottom: 75%;
-    }
-  
   /* main layout */
   .main-content {
     margin: 0 2%;
