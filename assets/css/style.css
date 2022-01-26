@@ -11,8 +11,8 @@ body {
   font-weight: 500;
 }
 
-/* Header: Background, logo & navigation bar*/
 
+/* Header: Background, logo & navigation bar*/
 #header-bg {
   height: 300px;
   width: 100%;
@@ -23,7 +23,6 @@ body {
   background-position: center bottom;
   border-bottom: black solid 3px;
 }
-
 #logo img {
   height: 300px;
   width: auto;
@@ -45,7 +44,6 @@ body {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
 }
-
 #menu {
   font-size: 130%;
   letter-spacing: 2px;
@@ -53,24 +51,21 @@ body {
   float: right;
   margin-top: 266px;
 }
-
 #menu li {
   list-style-type: none;
   margin-right: 35px;
 }
-
 #menu a {
   text-decoration: none;
   color: #000;
 }
-
 #menu a:hover {
   border-bottom: 1px solid #000;
 }
-
 .active {
   border-bottom: 2px solid #000;
 }
+
 
 /* main content*/
 .main {
@@ -82,20 +77,18 @@ body {
   background-position: center bottom;
   background-attachment: fixed;
 }
-
 .main-content {
   margin: 0 28%;
   padding: 1% 1% 10%;
   background-color: rgba(144,238,144,0.9);
 }
-
 .main-content h2 {
   padding: 20px 0;
 }
-
 .main-content p {
   padding: 10px 0;
 }
+
 
 /* Hero Image */
 #hero-outer {
@@ -104,7 +97,6 @@ body {
   overflow: hidden;
   position: relative;
 }
-
 #hero-image {
   height: 600px;
   width: 100%;
@@ -112,14 +104,12 @@ body {
   background-size: cover;
   border-bottom: black solid 3px;
 }
-
 #cover-text, #cover-slogan {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
   text-align: center;
 }
-
 #cover-text {
   font-size: 140%;
   width: 300px;
@@ -130,8 +120,6 @@ body {
   left: 10%;
   position: absolute;
 }
-
-
 #cover-slogan {
   font-size: 185%;
   width: 300px;
@@ -144,46 +132,39 @@ body {
   position: absolute;
 }
 
-/* Services */
 
+/* Services */
 #services {
   display: inline-flex;
 }
-
 #services h3 {
   font-size: 150%;
   text-decoration: underline double black 2px;
 }
-
 #left-service {
   width: 50%;
   margin-right: 2%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-
 #right-service {
   width: 50%;
   margin-left: 2%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-
 #exp {
   margin-top: 7%;
 }
-
 #exp, #service-h2 {
   text-align: center;
   font-size: 280%;
 }
-
 #service-h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 10px;
 }
-
 #circle-container {
   width: 300px;
   height: 300px;
@@ -193,7 +174,6 @@ body {
   border-radius: 50%;
   margin: 0 auto;
 }
-
 #circle-cover-bg {
   background: url('../images/service_center.jpg') no-repeat center center;
   height: 100%;
@@ -201,15 +181,14 @@ body {
 }
 
 /* Under services */
-
 #more-service {
   margin-top: 2%;
   text-align: center;
   font-size: 110%;
 }
 
-/* Contact Form */
 
+/* Contact Form */
 .contact-form {
   margin: 0 auto;
   max-width: 400px;
@@ -217,14 +196,12 @@ body {
   font-size: 110%;
   font-weight: bold;
 }
-
 .contact-form h2 {
   margin-top: 20%;
   margin-bottom: 20px;
   text-align: center;
   font-size: 270%;
 }
-
 .text-input {
   background: #fafafa;
   width: 100%;
@@ -233,16 +210,13 @@ body {
   border: 1px solid #fafafa;
   border-radius: 2px;
 }
-
 .text-input:hover {
   border-color: black;
 }
-
 .textarea {
   width: 100%;
   height: 100px;
 }
-
 .sent-button {
   margin-top: 20px;
   border-radius: 2px;
@@ -255,7 +229,6 @@ body {
   display: inline-block;
   border-radius: 5px;
 }
-
 .sent-button:hover {
   background-color: rgba(144,238,144,0.7);
   color: black;
@@ -263,7 +236,6 @@ body {
 
 
 /* Footer: Bottom side navigation */
-
 footer {
   position: fixed;
   bottom: 0;
@@ -282,6 +254,7 @@ footer {
   min-width: auto;
   z-index:0;
 }
+
 /* Text over video */
 .overlay {
   padding: 0.5%;
@@ -296,48 +269,40 @@ footer a {
   text-decoration: none;
   color: rgba(144,238,144,0.9);
 }
-
 .footer-contact li, .footer-nav li {
   display: inline;
 }
-
 .footer-contact i {
   font-size: 145%;
   padding: 0 3%;
 }
-
 .footer-nav a {
   font-size: 95%;
   padding: 0 3%;
 }
-
 footer p {
   font-size: 70%;
   padding: 0.5% 0;
 }
 
-/* Legal content */
 
+/* Legal content */
 .server-log-scetion li {
   padding: 10px 0;
 }
-
 .server-log-scetion ul {
   padding-left: 20px;
 }
 
 /* Impressum */
-
 .impressum-lists li {
   list-style-type: none;
 }
-
 .disclaimer-section h4 {
   padding-top: 2%;
 }
 
 /* Gallary */
-
 .gallary-content {
   margin: 0 28%;
   padding: 1% 1%;
@@ -345,46 +310,38 @@ footer p {
   line-height: 0;
   column-gap: 0;
 }
-
-#gallery-video {
-  width: 320px;
-  height: 240px;
-}
-
 .gallary-content img {
   width: 100%;
 }
-
 #two-row-photos {
   display: flex;
   width: 50%;
 }
-
 .three-row-photos {
   column-count: 3;
   column-gap: 0;
 }
-
 #gallery-video {
-  text-align: center;
   height: 100%;
   width: 100%;
 }
 
-/* media queries */
+
+/* **** MEDIA QUERIES **** */
 
 /* For screen sizes from 1800px wide and down */
-
 @media screen and (max-width: 1800px) {
+
+  /* main layout */
   .main-content {
     margin: 0 20%;
   }
 }
 
 /* For screen sizes from 1455px wide and down */
-
-
 @media screen and (max-width: 1455px) {
+
+  /* main layout */
   .main-content {
     margin: 0 15%;
   }
@@ -397,33 +354,31 @@ footer p {
   #header-bg {
     height: 200px;
   }
-
   #logo img {
     height: 200px;
   }
-  
   #menu {
     font-size: 100%;
     margin-top: 175px;
   }
 
- /* main layout */
+  /* main layout */
   .main {
     margin-top: 200px;
   }
-
   .main-content {
     margin: 0 10%;
   }
 
-    /* Hero image */
-    #cover-text {
-      bottom: 50%;
-    }
-    #cover-slogan {
-      bottom: 65%;
-    }
+  /* Hero image */
+  #cover-text {
+    bottom: 50%;
+  }
+  #cover-slogan {
+    bottom: 65%;
+  }
 }
+
 /* For screen sizes from 975px wide and down */
 @media screen and (max-width: 975px) {
 
@@ -431,7 +386,6 @@ footer p {
   #logo img {
     height: 160px;
   }
-
   #menu {
     margin-top: 15px;
     margin-left: 30px;
@@ -465,34 +419,33 @@ footer p {
   #exp, #service-h2 {
     font-size: 180%;
   }
-
   #circle-container {
     width: 150px;
     height: 150px;
   }
-
   #circle-cover-bg {
     background-size: cover;
   }
 
-/* Footer */
+  /* Footer */
   .footer-contact i {
     font-size: 110%;
     padding: 0 2%;
   }
-  
   .footer-nav a {
     font-size: 85%;
   }
-  
 }
+
 /* For screen sizes from 705px wide and down */
 @media screen and (max-width: 705px) {
+  
   /* main layout */
   .main-content {
     margin: 0 2%;
   }
 
+  /* gallary page extra */
   .gallary-content {
     margin: 0 2%;
   }
@@ -506,31 +459,28 @@ footer p {
   #services {
     display: block;
   }
-
   #left-service {
     display: flex;
     width: 90%;
     margin: 0 auto;
   }
-
   #left-service > div {
     margin: 0 2px;
-  }
-    
+  } 
   #right-service {
     display: flex;
     width: 90%;
     margin: 0 auto;
   }
-
   #right-service > div {
     margin: 0 2px;
   }
-
 }
+
 /* For screen sizes from 465px wide and down */
 @media screen and (max-width: 465px) {
- /* navigationbar */
+
+  /* navigationbar */
   #header-bg {
     height: 165px;
   }
@@ -546,10 +496,12 @@ footer p {
   #menu li {
     margin-right: 4px;
   }
+
   /* main layout */
   .main {
     margin-top: 165px;
   }
+
   /* Services */
   #exp, #service-h2 {
     font-size: 140%;
@@ -560,7 +512,8 @@ footer p {
   #right-service {
     display: block;
   }
-/* Footer */
+
+  /* Footer */
   .footer-contact i {
     font-size: 70%;
     padding: 0 6px;
@@ -572,9 +525,11 @@ footer p {
     font-size: 60%;
   }
 }
+
 /* For screen sizes from 375px wide and down */
 @media screen and (max-width: 375px) {
-   /* navigationbar */
+
+  /* navigationbar */
   #menu {
     font-size: 88%;
     margin-top: 4px;
@@ -584,7 +539,8 @@ footer p {
   #menu li {
     margin-right: 5px;
   }
-/* Footer */
+
+  /* Footer */
   .footer-contact i {
     font-size: 50%;
     padding: 0 6px;
@@ -596,8 +552,10 @@ footer p {
     font-size: 50%;
   }
 }
+
 /* For screen sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
+
   /* navigationbar */
   #menu {
     font-size: 80%;
@@ -609,7 +567,7 @@ footer p {
     margin-right: 2px;
   }
 
-/* Footer */
+  /* Footer */
   .footer-contact i {
     font-size: 45%;
     padding: 0 3px;
