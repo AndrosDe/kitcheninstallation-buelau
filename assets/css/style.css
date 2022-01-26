@@ -13,7 +13,7 @@ body {
 
 /* Header: Background, logo & navigation bar */
 #header-bg {
-  height: 300px;
+  height: 180px;
   width: 100%;
   background-color: rgba(144,238,144,0.9);
   background-image: url('../images/main_pic.png');
@@ -23,7 +23,7 @@ body {
   border-bottom: black solid 3px;
 }
 #logo img {
-  height: 300px;
+  height: 180px;
   width: auto;
   float: left;
   z-index: 2;
@@ -46,7 +46,7 @@ body {
   letter-spacing: 2px;
   display: flex;
   float: right;
-  margin-top: 266px;
+  margin-top: 146px;
 }
 #menu li {
   list-style-type: none;
@@ -65,7 +65,7 @@ body {
 
 /* main content*/
 .main {
-  margin-top: 300px;
+  margin-top: 180px;
   margin-bottom: 160px;
   background-image: url("../images/Kitchen_background2.jpg");
   background-size: cover;
@@ -98,6 +98,7 @@ body {
   width: 100%;
   background: url(../images/company_van.jpg) rgba(144,238,144,0.9) center top no-repeat;
   background-size: cover;
+  background-position-y: 30%;
   border-bottom: black solid 3px;
 }
 #cover-text, #cover-slogan {
