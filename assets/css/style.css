@@ -299,19 +299,20 @@ footer p {
   margin: 0 28%;
   padding: 1% 1%;
   background-color: rgba(144,238,144,0.9);
-  line-height: 0;
-  column-gap: 0;
+  line-height: 2;
+  column-gap: 1;
 }
 .gallary-content img {
   width: 100%;
 }
+
 #two-row-photos {
   display: flex;
   width: 50%;
+  
 }
 .three-row-photos {
   column-count: 3;
-  column-gap: 0;
 }
 #gallery-video {
   height: 100%;
@@ -514,11 +515,14 @@ footer p {
   }
 }
 
-
 /* For screen sizes from 705px wide and down */
 @media screen and (max-width: 705px) {
 
   /* main layout */
+  .main {
+    margin-bottom: 90px;    
+  }
+
   .main-content {
     margin: 0 2%;
   }
@@ -538,7 +542,7 @@ footer p {
     margin: 0 auto;
   }
   #left-service > div {
-    margin: 0 2px;
+    margin: 0 5%;
   } 
   #right-service {
     display: flex;
@@ -546,7 +550,7 @@ footer p {
     margin: 0 auto;
   }
   #right-service > div {
-    margin: 0 2px;
+    margin: 0 5%;
   }
 
   /* Footer */
@@ -557,12 +561,15 @@ footer p {
     font-size: 80%;
   }
   .footer-nav a {
-    font-size: 50%;
+    font-size: 70%;
+  }
+  footer p {
+    font-size: 65%;
   }
 }
 
-/* For screen sizes from 465px wide and down */
-@media screen and (max-width: 465px) {
+/* For screen sizes from 585px wide and down */
+@media screen and (max-width: 705px) {
 
   /* navigationbar */
   #header-bg {
@@ -586,6 +593,25 @@ footer p {
     margin-top: 150px;
   }
 
+  /* Footer */
+  .footer-nav{
+    padding-top: 0;
+  }
+  .footer-contact i {
+    font-size: 65%;
+    padding: 0 6px;
+  }
+  .footer-nav a {
+    font-size: 70%;
+  }
+  footer p {
+    font-size: 60%;
+  }
+}
+
+/* For screen sizes from 465px wide and down */
+@media screen and (max-width: 465px) {
+
   /* Services */
   #exp, #service-h2 {
     font-size: 140%;
@@ -599,14 +625,14 @@ footer p {
 
   /* Footer */
   .footer-contact i {
-    font-size: 70%;
-    padding: 0 6px;
+    font-size: 48%;
+    padding: 0 4px;
   }
   .footer-nav a {
-    font-size: 70%;
+    font-size: 40%;
   }
   footer p {
-    font-size: 60%;
+    font-size: 40%;
   }
 }
 
@@ -632,14 +658,14 @@ footer p {
 
   /* Footer */
   .footer-contact i {
-    font-size: 60%;
+    font-size: 45%;
     padding: 0 3px;
   }
   .footer-nav a {
-    font-size: 60%;
+    font-size: 40%;
   }
   footer p {
-    font-size: 50%;
+    font-size: 35%;
   }
 }
 
@@ -665,7 +691,15 @@ footer p {
 
   /* Footer */
   .footer-contact i {
-    font-size: 45%;
+    font-size: 40%;
     padding: 0 2px;
   }
+  .footer-nav a {
+    font-size: 40%;
+  }
+  footer p {
+    font-size: 40%;
+  }
+
+
 }
