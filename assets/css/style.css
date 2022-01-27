@@ -74,6 +74,10 @@ body {
   background-attachment: fixed;
   z-index: 0;
 }
+.main-h1 {
+  font-size: 300%;
+  padding-bottom: 1%;
+}
 .main-content {
   margin: 0 28%;
   padding: 1% 1% 10%;
@@ -438,6 +442,10 @@ footer p {
     margin-top: 70px;
     margin-bottom: 80px;    
   }
+  .main-h1 {
+    font-size: 250%;
+    padding-bottom: 0;
+  }
   .main-content {
     margin: 0 10%;
   }
@@ -566,6 +574,9 @@ footer p {
   .main {
     margin-top: 40px;
     margin-bottom: 70px;
+  }
+  .main-h1 {
+    font-size: 200%;
   }
 
   /* Hero image */
@@ -749,6 +760,11 @@ footer p {
 
 /* For screen sizes from 383px wide and down */
 @media screen and (max-width: 383px) {
+
+  /* main */
+  .main-h1 {
+    font-size: 150%;
+  }
   
   /* Form */
   .sent-button {
