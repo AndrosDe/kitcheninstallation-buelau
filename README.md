@@ -146,14 +146,15 @@
   1. [Git](https://git-scm.com/) - Git was used for version control by utilizing the [Gitpod](https://gitpod.io/) terminal to commit to Git and Push to GitHub.
   1. [GitHub:](https://github.com/) - GitHub is used to store the code of the project after being pushed from Git.
   1. [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-  1. [WEBP Converter:](https://www.onlineconverter.com/webp) - WEBP Converter was used to change *.jpg files to *.webp to reduce the size 
-  1. [MAKEBACKGROUND.IO:](https://makebackground.io/) - MAKEBACKGROUND:IO was used to create an animated footer background
-  1. [Contrast Grid:](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) - Contrast Grit was used to find the correct shade of green for the website
-  1. [tinypng:](https://tinypng.com/) - Tinypng was used to reduce the file size of pictures
-  1. [Paint 3D:](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) - Paint 3D was used to work on the pictures
-  1. [Responsinator:](http://www.responsinator.com/) - Responsinator was used to review the website on different resolutions
-  1. [Grammarly:](https://app.grammarly.com/) - Grammarly was used for spell checking
-  1. [Notepad++:](https://notepad-plus-plus.org/) - Notepad++ for keeping notes for the project
+  1. [WEBP Converter:](https://www.onlineconverter.com/webp) - WEBP Converter was used to change *.jpg files to *.webp to reduce the size.
+  1. [MAKEBACKGROUND.IO:](https://makebackground.io/) - MAKEBACKGROUND:IO was used to create an animated footer background.
+  1. [Contrast Grid:](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) - Contrast Grit was used to find the correct shade of green for the website.
+  1. [tinypng:](https://tinypng.com/) - Tinypng was used to reduce the file size of pictures.
+  1. [Paint 3D:](https://www.microsoft.com/de-de/p/paint-3d/9nblggh5fv99?activetab=pivot:overviewtab) - Paint 3D was used to work on the pictures.
+  1. [Responsinator:](http://www.responsinator.com/) - Responsinator was used to review the website on different resolutions.
+  1. [Grammarly:](https://app.grammarly.com/) - Grammarly was used for spell checking.
+  1. [Notepad++:](https://notepad-plus-plus.org/) - Notepad++ for keeping notes for the project.
+  1. [ezGIF](https://ezgif.com/) - is an Online GIF maker and was used to change the footer video into a GIF file.
 
 <hr>
 
