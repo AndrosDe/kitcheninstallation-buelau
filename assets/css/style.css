@@ -120,7 +120,7 @@ h2 {
   text-align: center;
 }
 #cover-text {
-  font-size: 175%;
+  font-size: 220%;
   width: 250px;
   height: 150px;
   padding: 1% 0.5%;
@@ -128,7 +128,7 @@ h2 {
   top: 30%;
   left: 10%;
 }
-#cover-text p {
+#cover-text h5 {
   padding: 1.5%;
 }
 
@@ -332,7 +332,6 @@ footer p {
 .gallery-content {
   padding: 1% 1%;
   line-height: 2;
-  column-gap: 1;
 }
 .gallery-content img {
   width: 100%;
@@ -527,7 +526,7 @@ footer p {
 
   /* Hero image */
   #cover-text {
-    font-size: 132%;
+    font-size: 160%;
     width: 250px;
     height: 100px;
     left: 10%;
@@ -598,7 +597,7 @@ footer p {
 
   /* Hero image */
   #cover-text {
-    font-size: 112%;
+    font-size: 135%;
     width: 220px;
     height: 90px;
     left: 10%;
@@ -696,7 +695,7 @@ footer p {
 
   /* Hero Image */
   #cover-text {
-    font-size: 106%;
+    font-size: 125%;
     width: 210px;
     height: 90px;
     top: 20%;
