@@ -11,6 +11,10 @@ body {
   font-weight: 500;
 }
 
+h2 {
+  font-size: 280%;
+}
+
 /* Header: Background, logo & navigation bar */
 #header-bg {
   height: 180px;
@@ -28,7 +32,7 @@ body {
   float: left;
   z-index: 2;
 }
-  /* fixing the Header to the top when scrolling down*/
+  /* Fixing the Header to the top when scrolling down*/
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -76,11 +80,15 @@ body {
   z-index: 0;
 }
 
-.main-content {
-  text-align: center;
-  margin: 0 28%;
-  padding: 1% 1% 10%;
+.main-content, .sub-content, .gallery-content {
   background-color: rgba(144,238,144,0.9);
+  margin: 0 28%;
+}
+.main-content, .sub-content {
+  padding: 1% 1% 10%;
+}
+.main-content {
+  text-align: center; 
 }
 .main-content h2 {
   padding: 20px 0;
@@ -111,18 +119,21 @@ body {
   position: absolute;
   text-align: center;
 }
-
 #cover-text {
-  font-size: 140%;
-  width: 300px;
+  font-size: 175%;
+  width: 250px;
   height: 150px;
-  padding: 20px 10px;
+  padding: 1% 0.5%;
   background-color: rgba(144,238,144,0.9);
   top: 30%;
   left: 10%;
 }
+#cover-text p {
+  padding: 1.5%;
+}
+
 #cover-slogan {
-  font-size: 185%;
+  font-size: 280%;
   width: 400px;
   height: 160px;
   padding: 1%;
@@ -131,7 +142,6 @@ body {
   top: 20%;
   right: 10%;
 }
-
 
 /* Business Links*/
 #b-menu li {
@@ -149,24 +159,20 @@ body {
   font-size: 150%;
   text-decoration: underline double black 2px;
 }
-#left-service {
+
+#left-service, #right-service {
   width: 50%;
-  margin-right: 2%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
+#left-service {
+  margin-right: 2%;
+}
 #right-service {
-  width: 50%;
   margin-left: 2%;
-  margin-top: 3%;
-  margin-bottom: 3%;
 }
 #exp {
   margin-top: 7%;
-}
-#exp, #service-h2 {
-  text-align: center;
-  font-size: 280%;
 }
 #service-h2 {
   text-transform: uppercase;
@@ -248,17 +254,14 @@ footer {
   width: 100%;
   text-align: center;
   background: #000;
+  background-image: url(../images/under_the-sea.gif);
+  background-size: cover;
   color: rgba(144,238,144,0.9);
   padding: 0;
   letter-spacing: 2px;
 }
-  /* video as footer background */
-.nav video {
-  height: 100%;
-  min-width: auto;
-  z-index:0;
-}
-  /* Text over video */
+
+  /* Text over gif */
 .overlay {
   padding: 0.5%;
   width: 100%;
@@ -266,7 +269,7 @@ footer {
   top: 0;
   z-index: 2;
 }
-  /* footer content */
+  /* Footer Content */
 footer a {
   text-decoration: none;
   color: rgba(144,238,144,0.9);
@@ -299,12 +302,10 @@ footer p {
 }
 .sub-content {
   text-align: left;
-  margin: 0 28%;
-  padding: 1% 1% 10%;
-  background-color: rgba(144,238,144,0.9);
 }
 .sub-content h2 {
   padding: 20px 0;
+  font-size: 130%;
 }
 .sub-content p {
   padding: 10px 0;
@@ -329,9 +330,7 @@ footer p {
 
 /* Gallery */
 .gallery-content {
-  margin: 0 28%;
   padding: 1% 1%;
-  background-color: rgba(144,238,144,0.9);
   line-height: 2;
   column-gap: 1;
 }
@@ -378,12 +377,7 @@ footer p {
     margin-top: 150px;
     margin-bottom: 140px;
   }
-  .main-content {
-    margin: 0 20%;
-  }
-
-  /* Sublemtary layout */
-  .sub-content {
+  .main-content, .sub-content, .gallery-content {
     margin: 0 20%;
   }
 
@@ -420,12 +414,7 @@ footer p {
     margin-top: 100px;
     margin-bottom: 90px; 
   }
-  .main-content {
-    margin: 0 15%;
-  }
-
-  /* Sublemtary layout */
-  .sub-content {
+  .main-content, .sub-content, .gallery-content {
     margin: 0 15%;
   }
 
@@ -453,11 +442,6 @@ footer p {
   footer p {
     font-size: 60%;
   }
-
-  /* gallery page extra */
-  .gallery-content {
-    margin: 0 18%;
-  }
 }
 
 /* For screen sizes from 1275px wide and down */
@@ -484,13 +468,8 @@ footer p {
     font-size: 250%;
     padding-bottom: 0;
   }
-  .main-content {
+  .main-content, .sub-content, .gallery-content {
     margin: 0 10%;
-  }
-
-  /* Sublemtary layout */
-  .sub-content {
-     margin: 0 10%;
   }
 
  /* Hero image */
@@ -517,15 +496,13 @@ footer p {
   footer p {
     font-size: 50%;
   }
-
-  /* gallery page extra */
-  .gallery-content {
-    margin: 0 2%;
-  }
 }
 
 /* For screen sizes from 975px wide and down */
 @media screen and (max-width: 975px) {
+  h2 {
+    font-size: 180%;
+  }
 
   /* navigationbar */
   #header-bg {
@@ -544,26 +521,20 @@ footer p {
     margin-top: 60px;
     margin-bottom: 75px;
   }
-  .main-content {
-    margin: 0 5%;
-  }
-
-  /* Sublemtary layout */
-  .sub-content {
+  .main-content, .sub-content, .gallery-content {
     margin: 0 5%;
   }
 
   /* Hero image */
   #cover-text {
-    font-size: 100%;
+    font-size: 132%;
     width: 250px;
     height: 100px;
-    padding: 10px 5px;
     left: 10%;
     top: 40%;
   }
   #cover-slogan {
-    font-size: 130%;
+    font-size: 190%;
     width: 300px;
     height: 110px;
     right: 10%;
@@ -571,9 +542,6 @@ footer p {
   }
 
   /* Services */
-  #exp, #service-h2 {
-    font-size: 180%;
-  }
   #circle-container {
     width: 150px;
     height: 150px;
@@ -630,16 +598,15 @@ footer p {
 
   /* Hero image */
   #cover-text {
-    font-size: 80%;
+    font-size: 112%;
     width: 220px;
     height: 90px;
-    padding: 7px 5px;
     left: 10%;
     top: 40%;
   }
   #cover-slogan {
-    font-size: 90%;
-    width: 220px;
+    font-size: 142%;
+    width: 230px;
     height: 80px;
     right: 10%;
     top: 40%;
@@ -680,12 +647,7 @@ footer p {
     margin-top: 30px;
     margin-bottom: 63px;
   }
-  .main-content {
-    margin: 0 2%;
-  }
-
-  /* Sublemtary Layout */
-  .sub-content {
+  .main-content, .sub-content, .gallery-content {
     margin: 0 2%;
   }
 
@@ -693,22 +655,14 @@ footer p {
   #services {
     display: block;
   }
-  #left-service {
+  #left-service, #right-service {
     display: flex;
     width: 90%;
     margin: 0 auto;
   }
-  #left-service > div {
+  #left-service > div, #right-service > div {
     margin: 0 5%;
   } 
-  #right-service {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-  }
-  #right-service > div {
-    margin: 0 5%;
-  }
 
   /* Footer */
   footer {
@@ -727,7 +681,9 @@ footer p {
 
 /* For screen sizes from 585px wide and down */
 @media screen and (max-width: 585px) {
-
+  h2 {
+    font-size: 140%;
+  }
   /* navigationbar */
   #menu {
     margin-top: 8px;
@@ -740,14 +696,13 @@ footer p {
 
   /* Hero image */
   #cover-text {
-    font-size: 90%;
+    font-size: 106%;
     width: 210px;
     height: 90px;
-    padding: 10px 5px;
     top: 20%;
   }
   #cover-slogan {
-    font-size: 80%;
+    font-size: 115%;
     width: 190px;
     height: 70px;
     padding: 3%;
@@ -755,13 +710,7 @@ footer p {
   }
 
   /* Services */
-  #exp, #service-h2 {
-    font-size: 140%;
-  }
-  #left-service {
-    display: block;
-  }
-  #right-service {
+  #left-service, #right-service {
     display: block;
   }
 
@@ -854,6 +803,10 @@ footer p {
 /* For screen sizes from 325px wide and down */
 @media screen and (max-width: 325px) {
 
+  h2 {
+    font-size: 130%;
+  }
+
   /* navigationbar */
   #logo img {
     height: 0;
@@ -861,7 +814,6 @@ footer p {
 
   /* Services */
   #service-h2 {
-    font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
