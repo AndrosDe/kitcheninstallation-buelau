@@ -123,9 +123,9 @@ body {
 }
 #cover-slogan {
   font-size: 185%;
-  width: 300px;
-  height: 150px;
-  padding-top: 40px;
+  width: 400px;
+  height: 160px;
+  padding: 1%;
   background-color: rgba(0, 0, 0, 0.7);
   color: rgba(144,238,144,0.9);
   top: 20%;
@@ -515,10 +515,9 @@ footer p {
     top: 40%;
   }
   #cover-slogan {
-    font-size: 145%;
-    width: 250px;
-    height: 100px;
-    padding-top: 20px;
+    font-size: 130%;
+    width: 300px;
+    height: 110px;
     right: 10%;
     top: 40%;
   }
@@ -589,10 +588,9 @@ footer p {
     top: 40%;
   }
   #cover-slogan {
-    font-size: 125%;
+    font-size: 90%;
     width: 220px;
-    height: 85px;
-    padding-top: 15px;
+    height: 80px;
     right: 10%;
     top: 40%;
   }
@@ -694,10 +692,10 @@ footer p {
     top: 20%;
   }
   #cover-slogan {
-    font-size: 120%;
-    width: 210px;
-    height: 90px;
-    padding-top: 20px;
+    font-size: 80%;
+    width: 190px;
+    height: 70px;
+    padding: 3%;
     top: 40%;
   }
 
