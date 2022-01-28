@@ -160,7 +160,14 @@
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2F)
+-   [W3C Markup Validator for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2F)
+-   [W3C Markup Validator for impressum.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fimpressum.html)
+-   [W3C Markup Validator for legal.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Flegal.html)
+-   [W3C Markup Validator for gallery.html](#)
+-   [W3C Markup Validator for index_de.html](#)
+-   [W3C Markup Validator for impressum_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fimpressum_de.html)
+-   [W3C Markup Validator for legal_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Flegal_de.html)
+-   [W3C Markup Validator for gallery_de.html](#)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
 
