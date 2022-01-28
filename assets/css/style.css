@@ -52,7 +52,6 @@ h2 {
   float: right;
   margin-top: 146px;
 }
-
 #menu li, #b-menu li {
   list-style-type: none;
   margin-right: 35px;
@@ -79,7 +78,6 @@ h2 {
   background-attachment: fixed;
   z-index: 0;
 }
-
 .main-content, .sub-content, .gallery-content {
   background-color: rgba(144,238,144,0.9);
   margin: 0 28%;
@@ -131,7 +129,6 @@ h2 {
 #cover-text h5 {
   padding: 1.5%;
 }
-
 #cover-slogan {
   font-size: 280%;
   width: 400px;
@@ -159,7 +156,6 @@ h2 {
   font-size: 150%;
   text-decoration: underline double black 2px;
 }
-
 #left-service, #right-service {
   width: 50%;
   margin-top: 3%;
@@ -260,7 +256,6 @@ footer {
   padding: 0;
   letter-spacing: 2px;
 }
-
   /* Text over *.gif */
 .overlay {
   padding: 0.5%;
@@ -295,7 +290,6 @@ footer p {
 
 
 /* Sublemtary Content Layout */
-
 .sub-h1 {
   font-size: 300%;
   padding-bottom: 1%;
@@ -312,7 +306,6 @@ footer p {
 }
 
 /* Legal Content */
-
 .server-log-scetion li {
   padding: 10px 0;
 }
@@ -499,6 +492,7 @@ footer p {
 
 /* For screen sizes from 975px wide and down */
 @media screen and (max-width: 975px) {
+
   h2 {
     font-size: 180%;
   }
@@ -680,9 +674,11 @@ footer p {
 
 /* For screen sizes from 585px wide and down */
 @media screen and (max-width: 585px) {
+
   h2 {
     font-size: 140%;
   }
+  
   /* Navigationbar */
   #menu {
     margin-top: 8px;

@@ -4,12 +4,12 @@
 
 <h3> 
   This is the marketing website for the company "KMB": Küchenmontage Bülau (German) or Kitchen Installation Bülau (English).<br>The aim is to present what kind of services the company offers and in which region the company is active, show-casing some of the finished projects and providing a contact form.
-  It is designed to be responsibe and accessible on a range of devices, making it easy to use for potential customers.
+  It is designed to be responsive and accessible on a range of devices, making it easy to use for potential customers.
 </h3>
 
-<h2 align="center"><img src="assets/images/Screenshots/readme_title_pic.jpg" height="500" width="850"></h2>
+<h2 align="center"><img src="assets/images/Screenshots/readme_title_pic.jpg" height="500" width="900"></h2>
 
-[View the live project here.](#)
+[View the live project here.](https://androsde.github.io/kitcheninstallation-buelau/)
 
 [View the previous company website here. (Was created by the owner with a website builder tool kit)](https://kuechenmontage-buelau.de/)
 
@@ -36,7 +36,7 @@
 - ### Wireframe
   - Home Page Wireframe - [View](https://github.com/AndrosDe/kitcheninstallation-buelau/tree/main/assets/images/Screenshots/kmb_wireframe1.png)
   <br>
-  As the other pages were much  simpler in layout only the home page has a Wireframe.
+  As the other pages were much simpler in layout only the home page has a Wireframe.
 
 
 <hr>
@@ -64,12 +64,13 @@
     - The main image on the homepage has a text overlay to highlight in which area the company works.
     - The Company's slogan points out what kind of work is offered.
 
-      <h3><img src="#" height="70" width="700"></h3>
+      <h3><img src="assets/images/Screenshots/readme_main_pic.png" height="350" width="700"></h3>
 
-  - #### Buissness Links Section
-    - 
+  - #### Business Links Section
+    - The Business Links Section includes links to partner companies, which will open in a new tab when clicked.
+    - This way visitors, will save a lot of time and can directly go to buy a kitchen, which Kitcheninstallation Bülau can install.
 
-      <h3><img src="#" height="70" width="700"></h3>
+      <h3><img src="assets/images/Screenshots/readme_buissness_pic.png" height="150" width="700"></h3>
 
   - #### Service Section
     - Here the visitor will see all services the company offers as well as their openness to individual ideas and wishes.
@@ -85,7 +86,7 @@
   - #### Footer
     - The footer section includes the link to the only social media (Facebook) site of the company. The link will open the Facebook page in a new tab.
     - Additional contact information for the phone (fixed and mobile) and fax are visible in the footer.
-    - Links to the (in Germany) required Impressum and Legal pages are in the lower section of the footer.
+    - Links to the required (in Germany) Impressum and Legal pages are in the lower section of the footer.
     - A legal statement of accepting the privacy policy is on the bottom of the footer.
     - The footer is fixed to the bottom of the page making the contact information always available and visible.
     - Is highly similar on all eight pages and identical in all four pages of the same language.
@@ -116,10 +117,10 @@
       <h3><img src="assets/images/Screenshots/readme_legal.png" height="200" width="600"></h3>
 
   - #### Mobil Phone Support
-    - This website is functional to a screen with 280px
+    - This website is functional to 280px screen width.
     - For the footer contact information to be more accessible switching from portrait to landscape is advised on smaller mobile devices.
 
-      <h3><img src="#" height="70" width="700"></h3>
+      <h3><img src="assets/images/Screenshots/readme_mobile_pic.jpg" height="400" width="500"></h3>
 
 - ### Features Left to Implement
   - #### Database
@@ -143,9 +144,9 @@
   1. [Google Fonts:](https://fonts.google.com/) - Google fonts were used to import the "Fjalla One" and "Quicksand" font into the style.css file which is used on all pages throughout the project.
   1. [Font Awesome:](https://fontawesome.com/) - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
   1. [Git](https://git-scm.com/) - Git was used for version control by utilizing the [Gitpod](https://gitpod.io/) terminal to commit to Git and Push to GitHub.
-  1. [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
+  1. [GitHub:](https://github.com/) - GitHub is used to store the code of the project after being pushed from Git.
   1. [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
-  1. [WEBP Converter:](https://www.onlineconverter.com/webp) - WEBP Converter was used to change *.jpg files to *.webp to reduce size 
+  1. [WEBP Converter:](https://www.onlineconverter.com/webp) - WEBP Converter was used to change *.jpg files to *.webp to reduce the size 
   1. [MAKEBACKGROUND.IO:](https://makebackground.io/) - MAKEBACKGROUND:IO was used to create an animated footer background
   1. [Contrast Grid:](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) - Contrast Grit was used to find the correct shade of green for the website
   1. [tinypng:](https://tinypng.com/) - Tinypng was used to reduce the file size of pictures
@@ -163,11 +164,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator for index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2F)
 -   [W3C Markup Validator for impressum.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fimpressum.html)
 -   [W3C Markup Validator for legal.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Flegal.html)
--   [W3C Markup Validator for gallery.html](#)
--   [W3C Markup Validator for index_de.html](#)
+-   [W3C Markup Validator for gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fgallery.html)
+-   [W3C Markup Validator for index_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Findex_de.html)
 -   [W3C Markup Validator for impressum_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fimpressum_de.html)
 -   [W3C Markup Validator for legal_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Flegal_de.html)
--   [W3C Markup Validator for gallery_de.html](#)
+-   [W3C Markup Validator for gallery_de.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2Fgallery_de.html)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fandrosde.github.io%2Fkitcheninstallation-buelau%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
 
@@ -219,6 +220,7 @@ The Lighthouse extention was used to validate the performance, accssesability, b
   - The gallery was well received and would be of great interest to customers looking for a new kitchen.
   - The contact information is clear and easy to find.
   - Information about the company is easy to find.
+  - Links to a shop are easy to find.
   - Legal and Impressum are less easy to find, though 98% of all visitors would not care for them.
 
 
@@ -233,6 +235,7 @@ The Lighthouse extention was used to validate the performance, accssesability, b
 - the gallery site will take time to load since there are a lot of pictures this is to be excepted. Lowering the resolution would cause the quality of the pictures to deteriorate too much.
 - Using the "Send" button on the form will open a new Website claiming that it would be unsafe and request more to cancel or sent again. No Email seems to be sent to the Email Address though.
 As the preferred contact is phone (visible in the footer) and the email visible above the for as alternative means to get in contact with the company.
+- This site is for a german company, hence the layout and style it focused to fit german words. This can cause some odd styling in other languages with sorter words/sentences.
 
 <hr>
 
@@ -277,5 +280,5 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 -  My Mentor Mr. Dario Carrasquel for continuous helpful feedback.
--  Mr. Bülau accepting my request to use his company and pictures in the project
--  The [Love Running Walkthrough Project](https://github.com/AndrosDe/love-running) for inspiring me and giving me the opportunity to look code up
+-  Mr. Bülau accepted my request to use his company, partner companies, and pictures in the project
+-  The [Love Running Walkthrough Project](https://github.com/AndrosDe/love-running) for inspiring me and allowing me to look code up
