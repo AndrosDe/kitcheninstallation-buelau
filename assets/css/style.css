@@ -15,7 +15,7 @@ h2 {
   font-size: 280%;
 }
 
-/* Header: Background, logo & navigation bar */
+/* Header: Background, Logo & Navigationbar */
 #header-bg {
   height: 180px;
   width: 100%;
@@ -193,7 +193,7 @@ h2 {
   height: 100%;
   border-radius: 50%;
 }
-  /* Under services */
+  /* Under Services */
 #more-service {
   margin-top: 2%;
   text-align: center;
@@ -246,7 +246,7 @@ h2 {
   color: black;
 }
 
-/* Footer: Bottom side navigation */
+/* Footer: Bottom Site Navigation */
 footer {
   position: fixed;
   bottom: 0;
@@ -261,7 +261,7 @@ footer {
   letter-spacing: 2px;
 }
 
-  /* Text over gif */
+  /* Text over *.gif */
 .overlay {
   padding: 0.5%;
   width: 100%;
@@ -311,7 +311,7 @@ footer p {
   padding: 10px 0;
 }
 
-/* Legal content */
+/* Legal Content */
 
 .server-log-scetion li {
   padding: 10px 0;
@@ -339,7 +339,7 @@ footer p {
   transition: transform .2s; /* Animation */
 }
 .gallery-content img:hover {
-  transform: scale(1.5); /* 150% zoom */
+  transform: scale(1.5); /* 150% Zoom */
 }
 #two-row-photos {
   display: flex;
@@ -397,7 +397,7 @@ footer p {
 /* For screen sizes from 1455px wide and down */
 @media screen and (max-width: 1455px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 100px;
     }
@@ -409,7 +409,7 @@ footer p {
     margin-top: 70px;
   }
 
-  /* main layout */
+  /* Main Layout */
   .main {
     margin-top: 100px;
     margin-bottom: 90px; 
@@ -418,7 +418,7 @@ footer p {
     margin: 0 15%;
   }
 
-  /* Hero image */
+  /* Hero Image */
   #cover-text {
     top: 30%;
   }
@@ -447,7 +447,7 @@ footer p {
 /* For screen sizes from 1275px wide and down */
 @media screen and (max-width: 1275px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 70px;
   }
@@ -459,7 +459,7 @@ footer p {
     margin-top: 45px;
   }
 
-  /* main layout */
+  /* Main Layout */
   .main {
     margin-top: 70px;
     margin-bottom: 80px;    
@@ -472,7 +472,7 @@ footer p {
     margin: 0 10%;
   }
 
- /* Hero image */
+ /* Hero Image */
   #cover-slogan {
     top: 30%;
   }
@@ -504,7 +504,7 @@ footer p {
     font-size: 180%;
   }
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 60px;
   }
@@ -516,7 +516,7 @@ footer p {
     margin-top: 35px;
   }
 
-  /* main layout */
+  /* Main Layout */
   .main {
     margin-top: 60px;
     margin-bottom: 75px;
@@ -568,7 +568,7 @@ footer p {
 /* For screen sizes from 810px wide and down */
 @media screen and (max-width: 810px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 40px;
   }
@@ -585,7 +585,7 @@ footer p {
     margin-right: 25px;
   }
 
-  /* main layout */
+  /* Main Layout */
   .main {
     margin-top: 40px;
     margin-bottom: 70px;
@@ -630,7 +630,7 @@ footer p {
 /* For screen sizes from 705px wide and down */
 @media screen and (max-width: 705px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 30px;
   }
@@ -642,7 +642,7 @@ footer p {
     margin-top: 5px;
   }
 
-  /* main layout */
+  /* Main Layout */
   .main {
     margin-top: 30px;
     margin-bottom: 63px;
@@ -684,7 +684,7 @@ footer p {
   h2 {
     font-size: 140%;
   }
-  /* navigationbar */
+  /* Navigationbar */
   #menu {
     margin-top: 8px;
     margin-left: 9px;
@@ -694,7 +694,7 @@ footer p {
     margin-right: 7px;
   }
 
-  /* Hero image */
+  /* Hero Image */
   #cover-text {
     font-size: 106%;
     width: 210px;
@@ -723,7 +723,7 @@ footer p {
 /* For screen sizes from 465px wide and down */
 @media screen and (max-width: 465px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #menu {
     margin-left: 6px;
     letter-spacing: 1px;
@@ -754,7 +754,7 @@ footer p {
 /* For screen sizes from 404px wide and down */
 @media screen and (max-width: 404px) {
   
-  /* navigationbar */
+  /* Navigationbar */
   #menu {
     letter-spacing: 0px;
   }
@@ -763,7 +763,7 @@ footer p {
 /* For screen sizes from 383px wide and down */
 @media screen and (max-width: 383px) {
 
-  /* Sublemtary layout */
+  /* Sublemtary Layout */
   .sub-h1 {
     font-size: 150%;
   }
@@ -790,7 +790,7 @@ footer p {
 /* For screen sizes from 347px wide and down */
 @media screen and (max-width: 347px){
   
-  /* navigationbar */
+  /* Navigationbar */
   #menu {
     margin-left: 2px;
     font-size: 70%;
@@ -807,7 +807,7 @@ footer p {
     font-size: 130%;
   }
 
-  /* navigationbar */
+  /* Navigationbar */
   #logo img {
     height: 0;
   }
