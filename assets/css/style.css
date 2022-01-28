@@ -28,7 +28,7 @@ body {
   float: left;
   z-index: 2;
 }
-  /* Fixing the Header to the top when scrolling down*/
+  /* fixing the Header to the top when scrolling down*/
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -48,7 +48,8 @@ body {
   float: right;
   margin-top: 146px;
 }
-#menu li {
+
+#menu li, #b-menu li {
   list-style-type: none;
   margin-right: 35px;
 }
@@ -63,7 +64,7 @@ body {
   border-bottom: 2px solid #000;
 }
 
-/* main content*/
+/* Main Content*/
 .main {
   margin-top: 180px;
   margin-bottom: 160px;
@@ -74,11 +75,9 @@ body {
   background-attachment: fixed;
   z-index: 0;
 }
-.main-h1 {
-  font-size: 300%;
-  padding-bottom: 1%;
-}
+
 .main-content {
+  text-align: center;
   margin: 0 28%;
   padding: 1% 1% 10%;
   background-color: rgba(144,238,144,0.9);
@@ -109,8 +108,10 @@ body {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
+  position: absolute;
   text-align: center;
 }
+
 #cover-text {
   font-size: 140%;
   width: 300px;
@@ -119,7 +120,6 @@ body {
   background-color: rgba(144,238,144,0.9);
   top: 30%;
   left: 10%;
-  position: absolute;
 }
 #cover-slogan {
   font-size: 185%;
@@ -130,7 +130,15 @@ body {
   color: rgba(144,238,144,0.9);
   top: 20%;
   right: 10%;
-  position: absolute;
+}
+
+
+/* Business Links*/
+#b-menu li {
+  display: inline-block;
+  height: 100%;
+  background-color: #fafafa;
+  margin: 1%;
 }
 
 /* Services */
@@ -282,7 +290,28 @@ footer p {
   padding: 0.5% 0;
 }
 
+
+/* Sublemtary Content Layout */
+
+.sub-h1 {
+  font-size: 300%;
+  padding-bottom: 1%;
+}
+.sub-content {
+  text-align: left;
+  margin: 0 28%;
+  padding: 1% 1% 10%;
+  background-color: rgba(144,238,144,0.9);
+}
+.sub-content h2 {
+  padding: 20px 0;
+}
+.sub-content p {
+  padding: 10px 0;
+}
+
 /* Legal content */
+
 .server-log-scetion li {
   padding: 10px 0;
 }
@@ -305,7 +334,6 @@ footer p {
   background-color: rgba(144,238,144,0.9);
   line-height: 2;
   column-gap: 1;
-  
 }
 .gallery-content img {
   width: 100%;
@@ -333,7 +361,7 @@ footer p {
 /* For screen sizes from 1800px wide and down */
 @media screen and (max-width: 1800px) {
 
-  /* navigationbar */
+  /* Navigationbar */
   #header-bg {
     height: 150px;
   }
@@ -345,12 +373,17 @@ footer p {
     margin-top: 115px;
   }
 
-  /* main layout */
+  /* Main layout */
   .main {
     margin-top: 150px;
     margin-bottom: 140px;
   }
   .main-content {
+    margin: 0 20%;
+  }
+
+  /* Sublemtary layout */
+  .sub-content {
     margin: 0 20%;
   }
 
@@ -388,6 +421,11 @@ footer p {
     margin-bottom: 90px; 
   }
   .main-content {
+    margin: 0 15%;
+  }
+
+  /* Sublemtary layout */
+  .sub-content {
     margin: 0 15%;
   }
 
@@ -450,6 +488,11 @@ footer p {
     margin: 0 10%;
   }
 
+  /* Sublemtary layout */
+  .sub-content {
+     margin: 0 10%;
+  }
+
  /* Hero image */
   #cover-slogan {
     top: 30%;
@@ -502,6 +545,11 @@ footer p {
     margin-bottom: 75px;
   }
   .main-content {
+    margin: 0 5%;
+  }
+
+  /* Sublemtary layout */
+  .sub-content {
     margin: 0 5%;
   }
 
@@ -574,7 +622,9 @@ footer p {
     margin-top: 40px;
     margin-bottom: 70px;
   }
-  .main-h1 {
+
+  /* Sublemtary layout */
+  .sub-h1 {
     font-size: 200%;
   }
 
@@ -631,6 +681,11 @@ footer p {
     margin-bottom: 63px;
   }
   .main-content {
+    margin: 0 2%;
+  }
+
+  /* Sublemtary Layout */
+  .sub-content {
     margin: 0 2%;
   }
 
@@ -759,8 +814,8 @@ footer p {
 /* For screen sizes from 383px wide and down */
 @media screen and (max-width: 383px) {
 
-  /* main */
-  .main-h1 {
+  /* Sublemtary layout */
+  .sub-h1 {
     font-size: 150%;
   }
   
