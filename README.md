@@ -44,20 +44,93 @@
 ## Features
 - ### Existing Features
   - #### Dual Language Support
+    - All pages are available in German and English.
+    - The navigation bar in the Header offers to switch between languages.
+    - Switching the language will redirect to the corresponding German or English version of the current page.
+    - The current language will be highlighted in the navigation bar.
+
+      <h3><img src="assets/images/Screenshots/language_select.png" height="30" width="200"></h3>
+
   - #### Navigation Bar
-  - #### The main page image
-  - #### Buissness Links
+    - A full responsive navigation bar: includes links to the Logo, Home page, Services, Gallery, and Contact page next to the language selector.
+    - Service and Contact will direct the visitor to the corresponding section on the main page.
+    - Is highly similar on all eight pages and identical in all four pages of the same language.
+    - The current site will be highlighted in the navigation bar.
+    - The navigation bar is fixed to the top of the page and is always available at any position of the page.
+
+      <h3><img src="assets/images/Screenshots/readme_nav.png" height="70" width="700"></h3>
+    
+  - #### The Main Page Image
+    - The main image on the homepage has a text overlay to highlight in which area the company works.
+    - The Company's slogan points out what kind of work is offered.
+
+      <h3><img src="#" height="70" width="700"></h3>
+
+  - #### Buissness Links Section
+    - 
+
+      <h3><img src="#" height="70" width="700"></h3>
+
   - #### Service Section
-  - #### Contact Form
+    - Here the visitor will see all services the company offers as well as their openness to individual ideas and wishes.
+    - The text is centered around an eyecatching, not an intrusive center picture.
+
+      <h3><img src="assets/images/Screenshots/readme_service.png" height="300" width="600"></h3>
+
+  - #### Contact Form Section
+    - This section will allow the visitor to use the form to send an email to the company.
+
+      <h3><img src="assets/images/Screenshots/readme_mainp_form.png" height="200" width="200"></h3>
+
   - #### Footer
+    - The footer section includes the link to the only social media (Facebook) site of the company. The link will open the Facebook page in a new tab.
+    - Additional contact information for the phone (fixed and mobile) and fax are visible in the footer.
+    - Links to the (in Germany) required Impressum and Legal pages are in the lower section of the footer.
+    - A legal statement of accepting the privacy policy is on the bottom of the footer.
+    - The footer is fixed to the bottom of the page making the contact information always available and visible.
+    - Is highly similar on all eight pages and identical in all four pages of the same language.
+
+      <h3><img src="assets/images/Screenshots/readme_footer.png" height="110" width="700"></h3>
+    
   - #### Gallery
+    - The gallery will provide the visitor with a commercial video introducing the company at the top. 
+    - The background of the video has been set to the main page image to keep the pages similar at the top.
+    - Supporting images of various kitchens the company has installed can be found below the video.
+    - All images have a zoom function when hovering above them.
+    - This section is valuable as potential customers of a new kitchen will look for inspiration.
+
+      <h3><img src="assets/images/Screenshots/readme_gallery.png" height="500" width="500"></h3>
+
   - #### Impressum
+    - This section is legally required in Germany to be part of a website.
+    - Here some advanced contact information can be found, as well as copyright information and privacy policies.
+    - All information here is structured and readable.
+
+      <h3><img src="assets/images/Screenshots/readme_impressum.png" height="300" width="500"></h3>
+
   - #### Legal
+    - This section is legally required in Germany to be part of a website.
+    - Here all data protection policies and again the copyright information is displayed.
+    - All information here is structured and readable.
+
+      <h3><img src="assets/images/Screenshots/readme_legal.png" height="200" width="600"></h3>
+
   - #### Mobil Phone Support
+    - This website is functional to a screen with 280px
+    - For the footer contact information to be more accessible switching from portrait to landscape is advised on smaller mobile devices.
+
+      <h3><img src="#" height="70" width="700"></h3>
 
 - ### Features Left to Implement
   - #### Database
+    - Adding a database in the backend to support multiple languages more efficiently.
+    - Improving the contact forms by adding a database to them.
+
+  - #### Impressum & Legal on one page
+    - The Impressum and Legal pages might be put on the same page with appropriate sections. As both had their separate pages in the previous [website](https://kuechenmontage-buelau.de/) they were implemented this was in this website as well. There might be a legal requirement to keep them separate in Germany and may need more investigations on this matter.
+
   - #### Navigation Bar - Text to Icon
+    - a function to replace the text in the navigation bar text with appropriate icons to provide easier access and readablility on smaler screen width. (Ex.: Home -> <img src="assets/images/Screenshots/readme_home.png" height="15" width="15"> )The link will open the Facebook page in a new tab.
 
 <hr>
 
@@ -150,6 +223,8 @@ The Lighthouse extention was used to validate the performance, accssesability, b
 - The navigation menu in the header can only show the website "Home" and "Gallery" with an underline, as well as the current language, "Services" and contact will not have a permanent marking as they are part of the home page. The link will work and direct the visitor to the section on the page though.
 - on resolutions lower than 280px width a white gap can be seen to the right of the page. As the page is not meant to be viewed on a screen that small, no additional media queries were made to fix this, as the site becomes unreadable at that resolution anyway.
 - the gallery site will take time to load since there are a lot of pictures this is to be excepted. Lowering the resolution would cause the quality of the pictures to deteriorate too much.
+- Using the "Send" button on the form will open a new Website claiming that it would be unsafe and request more to cancel or sent again. No Email seems to be sent to the Email Address though.
+As the preferred contact is phone (visible in the footer) and the email visible above the for as alternative means to get in contact with the company.
 
 <hr>
 
