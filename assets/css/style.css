@@ -110,7 +110,7 @@ h2 {
   background-position-y: 30%;
   border-bottom: black solid 3px;
 }
-#cover-text, #cover-slogan {
+#cover-text, #cover-slogan, #cover-slogan-en {
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
   letter-spacing: 3px;
@@ -129,15 +129,20 @@ h2 {
 #cover-text h5 {
   padding: 1.5%;
 }
-#cover-slogan {
+#cover-slogan, #cover-slogan-en {
   font-size: 280%;
-  width: 400px;
   height: 160px;
   padding: 1%;
   background-color: rgba(0, 0, 0, 0.7);
   color: rgba(144,238,144,0.9);
   top: 20%;
   right: 10%;
+}
+#cover-slogan {
+  width: 400px;
+}
+#cover-slogan-en {
+  width: 300px;
 }
 
 /* Business Links*/
@@ -414,7 +419,7 @@ footer p {
   #cover-text {
     top: 30%;
   }
-  #cover-slogan {
+  #cover-slogan, #cover-slogan-en {
     top: 20%;
   }
 
@@ -465,12 +470,13 @@ footer p {
   }
 
  /* Hero Image */
-  #cover-slogan {
-    top: 30%;
-  }
   #cover-text {
     top: 30%;
   }
+  #cover-slogan, #cover-slogan-en {
+    top: 30%;
+  }
+
 
   /* Footer */
   footer {
@@ -526,12 +532,17 @@ footer p {
     left: 10%;
     top: 40%;
   }
-  #cover-slogan {
+  #cover-slogan, #cover-slogan-en {
     font-size: 190%;
-    width: 300px;
     height: 110px;
     right: 10%;
     top: 40%;
+  }
+  #cover-slogan{
+    width: 300px;
+  }
+  #cover-slogan-en {
+    width: 200px;
   }
 
   /* Services */
@@ -597,12 +608,15 @@ footer p {
     left: 10%;
     top: 40%;
   }
-  #cover-slogan {
+  #cover-slogan, #cover-slogan-en {
     font-size: 142%;
-    width: 230px;
+
     height: 80px;
     right: 10%;
     top: 40%;
+  }
+  #cover-slogan {
+    width: 230px;
   }
 
   /* Footer */
