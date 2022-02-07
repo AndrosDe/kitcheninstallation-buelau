@@ -125,7 +125,7 @@
 - ### Features Left to Implement
   - #### Database
     - Adding a database in the backend to support multiple languages more efficiently.
-    - Improving the contact forms by adding a database to them.
+    - Improving the contact form by adding a database to it.
 
   - #### Impressum & Legal on one page
     - The Impressum and Legal pages might be put on the same page with appropriate sections. As both had their separate pages in the previous [website](https://kuechenmontage-buelau.de/) they were implemented this was in this website as well. There might be a legal requirement to keep them separate in Germany and may need more investigations on this matter.
@@ -234,8 +234,8 @@ The Lighthouse extention was used to validate the performance, accssesability, b
 - The navigation menu in the header can only show the website "Home" and "Gallery" with an underline, as well as the current language, "Services" and contact will not have a permanent marking as they are part of the home page. The link will work and direct the visitor to the section on the page though.
 - on resolutions lower than 280px width a white gap can be seen to the right of the page. As the page is not meant to be viewed on a screen that small, no additional media queries were made to fix this, as the site becomes unreadable at that resolution anyway.
 - the gallery site will take time to load since there are a lot of pictures this is to be excepted. Lowering the resolution would cause the quality of the pictures to deteriorate too much.
-- Using the "Send" button on the form will open a new Website claiming that it would be unsafe and request more to cancel or sent again. No Email seems to be sent to the Email Address though.
-As the preferred contact is phone (visible in the footer) and the email visible above the for as alternative means to get in contact with the company.
+- Using the "Send" button on the form will open the [Forum Dump of Code Institute](https://formdump.codeinstitute.net/) and not send a real email to Mr.Bülau.
+  The preferred contact is phone (visible in the footer) and the email visible above the for as alternative means to get in contact with the company.
 - This site is for a german company, hence the layout and style it focused to fit german words. This can cause some odd styling in other languages with sorter words/sentences.
 
 <hr>
