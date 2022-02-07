@@ -7,7 +7,7 @@
   It is designed to be responsive and accessible on a range of devices, making it easy to use for potential customers.
 </h3>
 
-<h2 align="center"><img src="assets/images/Screenshots/readme_title_pic.jpg" height="500" width="900"></h2>
+<h2 align="center"><img src="assets/images/screenshots/readme_title_pic.jpg" height="500" width="900"></h2>
 
 [View the live project here.](https://androsde.github.io/kitcheninstallation-buelau/)
 
@@ -49,7 +49,7 @@
     - Switching the language will redirect to the corresponding German or English version of the current page.
     - The current language will be highlighted in the navigation bar.
 
-      <h3><img src="assets/images/Screenshots/language_select.png" height="30" width="200"></h3>
+      <h3><img src="assets/images/screenshots/language_select.png" height="30" width="200"></h3>
 
   - #### Navigation Bar
     - A full responsive navigation bar: includes links to the Logo, Home page, Services, Gallery, and Contact page next to the language selector.
@@ -58,30 +58,30 @@
     - The current site will be highlighted in the navigation bar.
     - The navigation bar is fixed to the top of the page and is always available at any position of the page.
 
-      <h3><img src="assets/images/Screenshots/readme_nav.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/readme_nav.png" height="70" width="700"></h3>
     
   - #### The Main Page Image
     - The main image on the homepage has a text overlay to highlight in which area the company works.
     - The Company's slogan points out what kind of work is offered.
 
-      <h3><img src="assets/images/Screenshots/readme_main_pic.png" height="350" width="700"></h3>
+      <h3><img src="assets/images/screenshots/readme_main_pic.png" height="350" width="700"></h3>
 
   - #### Business Links Section
     - The Business Links Section includes links to partner companies, which will open in a new tab when clicked.
     - This way visitors, will save a lot of time and can directly go to buy a kitchen, which Kitcheninstallation Bülau can install.
 
-      <h3><img src="assets/images/Screenshots/readme_buissness_pic.png" height="150" width="700"></h3>
+      <h3><img src="assets/images/screenshots/readme_buissness_pic.png" height="150" width="700"></h3>
 
   - #### Service Section
     - Here the visitor will see all services the company offers as well as their openness to individual ideas and wishes.
     - The text is centered around an eyecatching, not an intrusive center picture.
 
-      <h3><img src="assets/images/Screenshots/readme_service.png" height="300" width="600"></h3>
+      <h3><img src="assets/images/screenshots/readme_service.png" height="300" width="600"></h3>
 
   - #### Contact Form Section
     - This section will allow the visitor to use the form to send an email to the company.
 
-      <h3><img src="assets/images/Screenshots/readme_mainp_form.png" height="200" width="200"></h3>
+      <h3><img src="assets/images/screenshots/readme_mainp_form.png" height="200" width="200"></h3>
 
   - #### Footer
     - The footer section includes the link to the only social media (Facebook) site of the company. The link will open the Facebook page in a new tab.
@@ -91,7 +91,7 @@
     - The footer is fixed to the bottom of the page making the contact information always available and visible.
     - Is highly similar on all eight pages and identical in all four pages of the same language.
 
-      <h3><img src="assets/images/Screenshots/readme_footer.png" height="110" width="700"></h3>
+      <h3><img src="assets/images/screenshots/readme_footer.png" height="110" width="700"></h3>
     
   - #### Gallery
     - The gallery will provide the visitor with a commercial video introducing the company at the top. 
@@ -100,27 +100,27 @@
     - All images have a zoom function when hovering above them.
     - This section is valuable as potential customers of a new kitchen will look for inspiration.
 
-      <h3><img src="assets/images/Screenshots/readme_gallery.png" height="500" width="500"></h3>
+      <h3><img src="assets/images/screenshots/readme_gallery.png" height="500" width="500"></h3>
 
   - #### Impressum
     - This section is legally required in Germany to be part of a website.
     - Here some advanced contact information can be found, as well as copyright information and privacy policies.
     - All information here is structured and readable.
 
-      <h3><img src="assets/images/Screenshots/readme_impressum.png" height="300" width="500"></h3>
+      <h3><img src="assets/images/screenshots/readme_impressum.png" height="300" width="500"></h3>
 
   - #### Legal
     - This section is legally required in Germany to be part of a website.
     - Here all data protection policies and again the copyright information is displayed.
     - All information here is structured and readable.
 
-      <h3><img src="assets/images/Screenshots/readme_legal.png" height="200" width="600"></h3>
+      <h3><img src="assets/images/screenshots/readme_legal.png" height="200" width="600"></h3>
 
   - #### Mobil Phone Support
     - This website is functional to 280px screen width.
     - For the footer contact information to be more accessible switching from portrait to landscape is advised on smaller mobile devices.
 
-      <h3><img src="assets/images/Screenshots/readme_mobile_pic.jpg" height="400" width="500"></h3>
+      <h3><img src="assets/images/screenshots/readme_mobile_pic.jpg" height="400" width="500"></h3>
 
 - ### Features Left to Implement
   - #### Database
@@ -177,44 +177,44 @@ The Lighthouse extention was used to validate the performance, accssesability, b
 -   [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
   - Score for index.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_index.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_index.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_index.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_index.png" height="70" width="700"></h3>
   - Score for index_de.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_index_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_index_de.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_index_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_index_de.png" height="70" width="700"></h3>
   - Score for gallery.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_gallery.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_gallery.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_gallery.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_gallery.png" height="70" width="700"></h3>
   - Score for gallery_de.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_gallery_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_gallery_de.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_gallery_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_gallery_de.png" height="70" width="700"></h3>
   - Score for impressum.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_impressum.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_impressum.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_impressum.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_impressum.png" height="70" width="700"></h3>
   - Score for impressum_de.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_impressum_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_impressum_de.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_impressum_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_impressum_de.png" height="70" width="700"></h3>
   - Score for legal.html
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_legal.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_legal.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_legal.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_legal.png" height="70" width="700"></h3>
   - Score for legal.de
     - Desktop
-      <h3><img src="assets/images/Screenshots/lhouse_desk_legal_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_desk_legal_de.png" height="70" width="700"></h3>
     - Mobile
-      <h3><img src="assets/images/Screenshots/lhouse_mob_legal_de.png" height="70" width="700"></h3>
+      <h3><img src="assets/images/screenshots/lhouse_mob_legal_de.png" height="70" width="700"></h3>
 
 ### Testing the User Experience (UX)
 - Friends and family members were asked to review the site:
@@ -254,13 +254,48 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/AndrosDe/kitcheninstallation-buelau
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/AndrosDe/kitcheninstallation-buelau
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+
 <hr>
 
 ## Credits
 
 ### Code
 - The repository was created with the [Code Institute student template for Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template).
-- Tome styling and layouts were influenced by the [Love Running Walkthrough Project](https://github.com/AndrosDe/love-running), however, in nearly all cases modifications had to be made to make it work correctly.
+- Some styling and layouts were influenced by the [Love Running Walkthrough Project](https://github.com/AndrosDe/love-running), however, in nearly all cases modifications had to be made to make it work correctly.
 - The creation of the README was influenced by [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME) and [Love Running Walkthrough Project](https://github.com/Code-Institute-Solutions/readme-template).
 - The code for the video in the footer was made with help of ["How to CSS fullscreen video"](https://www.w3schools.com/howto/howto_css_fullscreen_video.asp).
 - To get the text over the video part of the code from ["Text over video"](https://stackoverflow.com/questions/40959725/text-over-video-html?noredirect=1&lq=1) was used.
